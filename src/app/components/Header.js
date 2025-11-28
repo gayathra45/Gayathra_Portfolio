@@ -1,7 +1,7 @@
 import routes from "@/consts/routes";
 import MediaIcon from "./MediaIcon";
 
-const paths = ["/", "/projects", "/about-me"]
+const paths = [`${base}/`, `${base}/projects`, `${base}/about-me`];
 
 export default (t) => {
     return /*html*/ `
@@ -21,7 +21,7 @@ export default (t) => {
             <div class="container">
 
                 <div class="header__inner">
-                    <a class="logo" href="/">
+                    <a class="logo" href="${base}/">
                         <img class="logo__img" src="images/logo.svg" alt="Gayathra logo">
                         <span class="logo__name">Gayathra</span>
                     </a>

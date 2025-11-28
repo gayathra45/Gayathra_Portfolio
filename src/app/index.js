@@ -9,7 +9,9 @@ import "styles/styles.sass";
 
 const rootId = "root";
 async function render() {
-    const path = routes[window.location.pathname] ?? routes["/404"];
+    // strip the repo name so "/Gayathra_Portfolio/" becomes "/"
+    const rawPath = window.location.pathname.replace("/Gayathra_Portfolio", "") || "/";
+    const path = routes[rawPath] ?? routes["/404"];
 
     loadCssFile(path.name);
     startTitleAnimation(path.name);
