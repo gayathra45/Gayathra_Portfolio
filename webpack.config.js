@@ -25,7 +25,7 @@ module.exports = {
             title: "Elias Portfolio",
             'meta': {
                 'viewport': 'width=device-width, initial-scale=1, shrink-to-fit=no',
-                'theme-color': '#C778DD',
+                'theme-color':'rgb(0, 255, 242)',
             }
         }),
         new plugins.html({
