@@ -12,7 +12,7 @@ module.exports = {
         spaHandler: "./src/app/spaHandler.js",
     },
     output: {
-        path: resolve(__dirname, "dist"),
+        path: resolve(__dirname, "docs"),
         filename: "js/[name].js",
         chunkFilename: "js/[chunkhash].js"
     },
