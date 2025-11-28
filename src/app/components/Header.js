@@ -1,6 +1,6 @@
 import routes from "@/consts/routes";
 import MediaIcon from "./MediaIcon";
-
+const base = "/Gayathra_Portfolio";
 const paths = [`${base}/`, `${base}/projects`, `${base}/about-me`];
 
 export default (t) => {
