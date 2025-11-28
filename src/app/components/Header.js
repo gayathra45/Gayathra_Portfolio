@@ -22,7 +22,7 @@ export default (t) => {
 
                 <div class="header__inner">
                     <a class="logo" href="/">
-                        <img class="logo__img" src="/images/logo.svg" alt="Gayathra logo">
+                        <img class="logo__img" src="images/logo.svg" alt="Gayathra logo">
                         <span class="logo__name">Gayathra</span>
                     </a>
                     <div class="header__links">

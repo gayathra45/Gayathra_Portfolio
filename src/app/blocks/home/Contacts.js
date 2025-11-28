@@ -24,7 +24,7 @@ export default (t) => {
                             .map(
                                 (contact) => /*html*/ `
                             <a class="contact" href="${media[contact.name]}">
-                                <img src="/images/icons/${
+                                <img src="images/icons/${
                                     contact.name
                                 }.svg" alt="">
                                 <div class="contact__name">${contact.text}</div>
