@@ -44,8 +44,8 @@ export default ({ id }, t) => {
             </ul> 
 
             <div class="project__content">
-                <div class="project__name">${t[id].name}</div>
-                <div class="project__description">${t[id].description}</div>
+                <div class="project__name">${t[id]?.name || id}</div>
+                <div class="project__description">${t[id]?.description || ''}</div>
                 <div class="project__links">${mapLinks(links)}</div>
             </div>
         </div> 
