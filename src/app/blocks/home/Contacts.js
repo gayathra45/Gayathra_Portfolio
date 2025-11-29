@@ -3,7 +3,7 @@ import media from "@/consts/media";
 const contacts = [
     {
         name: "telegram",
-        text: media.telegram,
+        text: `@${media.telegram}`,
     },
     {
         name: "email",

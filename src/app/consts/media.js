@@ -9,9 +9,9 @@ const media = {
     github: "gayathra45",
     linkedin: "Gayathra Samuditha",
     email: "gayathrasamuditha45@gmail.com",
-    facebook: "Gayathra Samuditha",  
+    facebook: "Gayathra.Samuditha",  
     instagram: "gayathra_s", 
-    telegram: "@gayathra_samuditha",
+    telegram: "gayathra_samuditha",
     youtube: "Code Mapper",
     twitter: "Gayathra45" 
 

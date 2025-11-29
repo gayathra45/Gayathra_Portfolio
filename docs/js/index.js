@@ -49,7 +49,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _proxies_media__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../proxies/media */ \"./src/app/proxies/media.js\");\n\n\nconst media = {\n    discord: {\n        id: \"gayya_59624_30521\",\n        tag: \"Gayya\",\n    },\n    \n    github: \"gayathra45\",\n    linkedin: \"Gayathra Samuditha\",\n    email: \"gayathrasamuditha45@gmail.com\",\n    facebook: \"Gayathra Samuditha\",  \n    instagram: \"gayathra_s\", \n    telegram: \"@gayathra_samuditha\",\n    youtube: \"Code Mapper\",\n    twitter: \"Gayathra45\" \n\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new Proxy(media, _proxies_media__WEBPACK_IMPORTED_MODULE_0__[\"default\"]));\n\n\n\n//# sourceURL=webpack://portfolio/./src/app/consts/media.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _proxies_media__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../proxies/media */ \"./src/app/proxies/media.js\");\n\n\nconst media = {\n    discord: {\n        id: \"gayya_59624_30521\",\n        tag: \"Gayya\",\n    },\n    \n    github: \"gayathra45\",\n    linkedin: \"Gayathra Samuditha\",\n    email: \"gayathrasamuditha45@gmail.com\",\n    facebook: \"Gayathra.Samuditha\",  \n    instagram: \"gayathra_s\", \n    telegram: \"gayathra_samuditha\",\n    youtube: \"Code Mapper\",\n    twitter: \"Gayathra45\" \n\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new Proxy(media, _proxies_media__WEBPACK_IMPORTED_MODULE_0__[\"default\"]));\n\n\n\n//# sourceURL=webpack://portfolio/./src/app/consts/media.js?\n}");
 
 /***/ }),
 
@@ -71,7 +71,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n    discord: \"discord.com/users/\",\n    github: \"github.com/\",\n    figma: \"figma.com/@\",\n    linkedin: \"linkedin.com/in/\",\n    email: \"mailto:\",\n    facebook: \"facebook.com/\",\n    telegram: \"t.me/\",  \n    instagram: \"instagram.com/\",  \n    twitter: \"twitter.com/\",\n    youtube: \"youtube.com/watch?v=\"  \n});\n\n//# sourceURL=webpack://portfolio/./src/app/consts/websites.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n    discord: \"discord.com/users/\",\n    github: \"github.com/\",\n    figma: \"figma.com/@\",\n    linkedin: \"linkedin.com/in/\",\n    email: \"\",\n    facebook: \"facebook.com/\",\n    telegram: \"t.me/\",  \n    instagram: \"instagram.com/\",  \n    twitter: \"twitter.com/\",\n    youtube: \"youtube.com/watch?v=\"  \n});\n\n//# sourceURL=webpack://portfolio/./src/app/consts/websites.js?\n}");
 
 /***/ }),
 
@@ -233,7 +233,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-ext
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + {"src_app_views_About_js":"033adf9ce5081fd22af6","src_app_views_Contacts_js":"560ef71063b129da344c","src_app_views_Home_js":"c3bbc38e9f0f38a0e319","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"1e91a82443b04abd79e0"}[chunkId] + ".js";
+/******/ 			return "js/" + {"src_app_views_About_js":"033adf9ce5081fd22af6","src_app_views_Contacts_js":"560ef71063b129da344c","src_app_views_Home_js":"ed4e13f79d0302e57816","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"1e91a82443b04abd79e0"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
