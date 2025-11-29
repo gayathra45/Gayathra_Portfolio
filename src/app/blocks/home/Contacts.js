@@ -2,14 +2,15 @@ import media from "@/consts/media";
 
 const contacts = [
     {
-        name: "discord",
-        text: media.discordTag,
+        name: "telegram",
+        text: media.telegram,
     },
     {
         name: "email",
         text: media.emailRaw,
     }
 ];
+
 
 export default (t) => {
     return /*html*/ `

@@ -7,9 +7,12 @@ const media = {
     },
     
     github: "gayathra45",
-    figma: "Gayathra Samuditha",
     linkedin: "Gayathra Samuditha",
-    email: "gayathrasamuditha45@gmail.com"
+    email: "gayathrasamuditha45@gmail.com",
+    facebook: "Gayathra Samuditha",  
+    instagram: "gayathra_s", 
+    telegram: "@gayathra_samuditha",
+    twitter: "Gayathra45" 
 
 }
 

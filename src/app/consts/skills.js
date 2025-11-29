@@ -1,6 +1,6 @@
 export default {
-    language: ["Java", "Python", "JavaScript", "HTML", "CSS"],
-    database: ["MySQL", "Firebase"],
-    tool: ["Git", "VS Code", "Figma"],
-    framework: ["React", "Bootstrap"]   
+    language: ["java", "python", "js", "html", "css"],
+    database: ["mysql", "firebase"],
+    tool: ["git", "vscode", "figma"],
+    framework: ["react", "bootstrap"]   
 }

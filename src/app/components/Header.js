@@ -3,7 +3,7 @@ import MediaIcon from "./MediaIcon";
 
 const base = "/Gayathra_Portfolio";
 
-const paths = [`${base}/`, `${base}/projects`, `${base}/about-me`];
+const paths = [`${base}/#/`, `${base}/#/projects`, `${base}/#/about-me`];
 
 export default (t) => {
     return /*html*/ `
@@ -34,9 +34,8 @@ export default (t) => {
                                 const routeKey = path.replace(base, "") || "/";
                                 return /*html*/ `
                                     <a href="${path}" class="header__link ${
-                                        window.location.pathname === path
-                                            ? "header__link_active"
-                                            : ""
+                                        window.location.hash === path ? "header__link_active" : ""
+
                                     }">${t[routes[routeKey].name]}</a>
                                 `;
                             })

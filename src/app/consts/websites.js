@@ -3,5 +3,9 @@ export default {
     github: "github.com/",
     figma: "figma.com/@",
     linkedin: "linkedin.com/in/",
-    email: "mailto:"
+    email: "mailto:",
+    facebook: "facebook.com/",
+    telegram: "t.me/",  
+    instagram: "instagram.com/",  
+    twitter: "twitter.com/"  
 }
