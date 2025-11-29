@@ -28,18 +28,16 @@ export default (t) => {
                         <span class="logo__name">Gayathra</span>
                     </a>
                     <div class="header__links">
-                        ${paths
-                            .map((path) => {
-                                // convert "/Gayathra_Portfolio/..." back to "/", "/projects", "/about-me"
-                                const routeKey = path.replace(base, "") || "/";
-                                return /*html*/ `
-                                    <a href="${path}" class="header__link ${
-                                        window.location.hash === path ? "header__link_active" : ""
-
-                                    }">${t[routes[routeKey].name]}</a>
-                                `;
-                            })
-                            .join("")}
+                       ${paths
+                        .map((path) => {
+                              const routeKey = path.replace(base, "").replace("#", "") || "/";
+                               return /*html*/ `
+                               <a href="${path}" class="header__link ${
+                                   window.location.hash === path ? "header__link_active" : ""
+                                }">${t[routes[routeKey].name]}</a>
+                              `;   
+                        })      
+                      .join("")}
                     </div>
                     <div class="dropdown">
                         <span class="dropdown__label">en</span>
