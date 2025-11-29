@@ -71,7 +71,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n    discord: \"discord.com/users/\",\n    github: \"github.com/\",\n    figma: \"figma.com/@\",\n    linkedin: \"linkedin.com/in/\",\n    email: \"mailto:\",\n    facebook: \"facebook.com/\",\n    telegram: \"t.me/\",  \n    instagram: \"instagram.com/\",  \n    twitter: \"twitter.com/\",\n    youtube: \"youtube.com/@\"  \n});\n\n//# sourceURL=webpack://portfolio/./src/app/consts/websites.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n    discord: \"discord.com/users/\",\n    github: \"github.com/\",\n    figma: \"figma.com/@\",\n    linkedin: \"linkedin.com/in/\",\n    email: \"mailto:\",\n    facebook: \"facebook.com/\",\n    telegram: \"t.me/\",  \n    instagram: \"instagram.com/\",  \n    twitter: \"twitter.com/\",\n    youtube: \"youtube.com/watch?v=\"  \n});\n\n//# sourceURL=webpack://portfolio/./src/app/consts/websites.js?\n}");
 
 /***/ }),
 
@@ -233,7 +233,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-ext
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + {"src_app_views_About_js":"033adf9ce5081fd22af6","src_app_views_Contacts_js":"560ef71063b129da344c","src_app_views_Home_js":"2202502479ff6a21844d","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"b95b369643785573edba"}[chunkId] + ".js";
+/******/ 			return "js/" + {"src_app_views_About_js":"033adf9ce5081fd22af6","src_app_views_Contacts_js":"560ef71063b129da344c","src_app_views_Home_js":"3ad8a65a477ef3046332","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"433515f6535b9d4f9118"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
