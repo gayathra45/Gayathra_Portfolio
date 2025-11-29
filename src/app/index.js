@@ -40,12 +40,15 @@ window.addEventListener("popstate", () => {
 // Intercept all link clicks for internal navigation
 document.addEventListener("click", (e) => {
     const link = e.target.closest("a");
-    if (link && link.href && link.href.startsWith(window.location.origin + base)) {
+    // Don't intercept anchor links (starting with #) or external links
+    if (link && link.href && link.href.startsWith(window.location.origin + base) && !link.hash) {
         e.preventDefault();
         const path = link.pathname.replace(base, "") || "/";
         navigate(path);
     }
 });
+
+
 
 replacePath()
     .then(() => render())
