@@ -470,10 +470,10 @@ body, html {
 }
 
 :root {
-  --primary: hsl(287 60% 65%);
-  --primary-op: hsl(185 80% 55%/0.1);
+  --primary: hsl(hsl(179, 100%, 50%));
+  --primary-op: hsl(179 100% 50%/0.1);
   --gray: hsl(219 14% 71%);
   --gray-op: hsl(219 14% 71%/0.1);
-  --background: hsl(0 0% 5%);
+  --background: hsl(0 0% 0%);
   --white: hsl(0 0% 100%);
 }

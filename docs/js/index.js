@@ -126,7 +126,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _views_Layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./views/Layout */ \"./src/app/views/Layout.js\");\n/* harmony import */ var _consts_routes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./consts/routes */ \"./src/app/consts/routes.js\");\n/* harmony import */ var _helpers_startTitleAnimation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./helpers/startTitleAnimation */ \"./src/app/helpers/startTitleAnimation.js\");\n/* harmony import */ var _helpers_localeHandler__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./helpers/localeHandler */ \"./src/app/helpers/localeHandler.js\");\n/* harmony import */ var _helpers_loadCssFile__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./helpers/loadCssFile */ \"./src/app/helpers/loadCssFile.js\");\n/* harmony import */ var _helpers_replacePath__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./helpers/replacePath */ \"./src/app/helpers/replacePath.js\");\n/* harmony import */ var styles_styles_sass__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styles/styles.sass */ \"./src/assets/styles/styles.sass\");\n/* harmony import */ var styles_styles_sass__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(styles_styles_sass__WEBPACK_IMPORTED_MODULE_6__);\n\n\n\n\n\n\n\n\n\nconst rootId = \"root\";\nconst base = \"/Gayathra_Portfolio\";\n\nasync function render() {\n    // strip the repo name so \"/Gayathra_Portfolio/\" becomes \"/\"\n    const rawPath = window.location.pathname.replace(base, \"\") || \"/\";\n    const path = _consts_routes__WEBPACK_IMPORTED_MODULE_1__[\"default\"][rawPath] ?? _consts_routes__WEBPACK_IMPORTED_MODULE_1__[\"default\"][\"/404\"];\n\n    (0,_helpers_loadCssFile__WEBPACK_IMPORTED_MODULE_4__[\"default\"])(path.name);\n    (0,_helpers_startTitleAnimation__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(path.name);\n\n    document.getElementById(rootId).innerHTML = await (0,_views_Layout__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(\n        (\n            await __webpack_require__(\"./src/app/views lazy recursive ^\\\\.\\\\/.*$\")(`./${path.element}`)\n        ).default,\n        path\n    );\n}\n\n// Client-side navigation function\nfunction navigate(path) {\n    window.history.pushState({}, \"\", base + path);\n    render();\n}\n\n// Listen for back/forward buttons\nwindow.addEventListener(\"popstate\", () => {\n    render();\n});\n\n// Intercept all link clicks for internal navigation\ndocument.addEventListener(\"click\", (e) => {\n    const link = e.target.closest(\"a\");\n    if (link && link.href && link.href.startsWith(window.location.origin + base)) {\n        e.preventDefault();\n        const path = link.pathname.replace(base, \"\") || \"/\";\n        navigate(path);\n    }\n});\n\n(0,_helpers_replacePath__WEBPACK_IMPORTED_MODULE_5__[\"default\"])()\n    .then(() => render())\n    .then(() => (0,_helpers_localeHandler__WEBPACK_IMPORTED_MODULE_3__[\"default\"])());\n\n\n//# sourceURL=webpack://portfolio/./src/app/index.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _views_Layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./views/Layout */ \"./src/app/views/Layout.js\");\n/* harmony import */ var _consts_routes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./consts/routes */ \"./src/app/consts/routes.js\");\n/* harmony import */ var _helpers_startTitleAnimation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./helpers/startTitleAnimation */ \"./src/app/helpers/startTitleAnimation.js\");\n/* harmony import */ var _helpers_localeHandler__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./helpers/localeHandler */ \"./src/app/helpers/localeHandler.js\");\n/* harmony import */ var _helpers_loadCssFile__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./helpers/loadCssFile */ \"./src/app/helpers/loadCssFile.js\");\n/* harmony import */ var _helpers_replacePath__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./helpers/replacePath */ \"./src/app/helpers/replacePath.js\");\n/* harmony import */ var styles_styles_sass__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styles/styles.sass */ \"./src/assets/styles/styles.sass\");\n\n\n\n\n\n\n\n\n\nconst rootId = \"root\";\nconst base = \"/Gayathra_Portfolio\";\n\nasync function render() {\n    // strip the repo name so \"/Gayathra_Portfolio/\" becomes \"/\"\n    const rawPath = window.location.pathname.replace(base, \"\") || \"/\";\n    const path = _consts_routes__WEBPACK_IMPORTED_MODULE_1__[\"default\"][rawPath] ?? _consts_routes__WEBPACK_IMPORTED_MODULE_1__[\"default\"][\"/404\"];\n\n    (0,_helpers_loadCssFile__WEBPACK_IMPORTED_MODULE_4__[\"default\"])(path.name);\n    (0,_helpers_startTitleAnimation__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(path.name);\n\n    document.getElementById(rootId).innerHTML = await (0,_views_Layout__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(\n        (\n            await __webpack_require__(\"./src/app/views lazy recursive ^\\\\.\\\\/.*$\")(`./${path.element}`)\n        ).default,\n        path\n    );\n}\n\n// Client-side navigation function\nfunction navigate(path) {\n    window.history.pushState({}, \"\", base + path);\n    render();\n}\n\n// Listen for back/forward buttons\nwindow.addEventListener(\"popstate\", () => {\n    render();\n});\n\n// Intercept all link clicks for internal navigation\ndocument.addEventListener(\"click\", (e) => {\n    const link = e.target.closest(\"a\");\n    if (link && link.href && link.href.startsWith(window.location.origin + base)) {\n        e.preventDefault();\n        const path = link.pathname.replace(base, \"\") || \"/\";\n        navigate(path);\n    }\n});\n\n(0,_helpers_replacePath__WEBPACK_IMPORTED_MODULE_5__[\"default\"])()\n    .then(() => render())\n    .then(() => (0,_helpers_localeHandler__WEBPACK_IMPORTED_MODULE_3__[\"default\"])());\n\n\n//# sourceURL=webpack://portfolio/./src/app/index.js?\n}");
 
 /***/ }),
 
@@ -166,9 +166,10 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /*!***************************************!*\
   !*** ./src/assets/styles/styles.sass ***!
   \***************************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("{throw new Error(\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\nHookWebpackError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\\nexpected \\\")\\\".\\n  ╷\\n3 │     primary-op: hsl(179 100% 50% / 0.1),\\r\\n  │               ^\\n  ╵\\n  src\\\\assets\\\\styles\\\\default\\\\variables.scss 3:15  @import\\n  src\\\\assets\\\\styles\\\\styles.sass 2:9              root stylesheet\\n    at tryRunOrWebpackError (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\webpack\\\\lib\\\\HookWebpackError.js:85:9)\\n    at __webpack_require_module__ (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5564:12)\\n    at __webpack_require__ (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5511:18)\\n    at E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5599:20\\n    at symbolIterator (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\neo-async\\\\async.js:3485:9)\\n    at done (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\neo-async\\\\async.js:3527:9)\\n    at Hook.eval [as callAsync] (eval at create (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\tapable\\\\lib\\\\HookCodeFactory.js:31:10), <anonymous>:15:1)\\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\tapable\\\\lib\\\\Hook.js:21:14)\\n    at E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5486:43\\n    at symbolIterator (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\neo-async\\\\async.js:3482:9)\\n-- inner error --\\nError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\\nexpected \\\")\\\".\\n  ╷\\n3 │     primary-op: hsl(179 100% 50% / 0.1),\\r\\n  │               ^\\n  ╵\\n  src\\\\assets\\\\styles\\\\default\\\\variables.scss 3:15  @import\\n  src\\\\assets\\\\styles\\\\styles.sass 2:9              root stylesheet\\n    at Object.<anonymous> (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\css-loader\\\\dist\\\\cjs.js!E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\sass-loader\\\\dist\\\\cjs.js!E:\\\\VSC\\\\Gayathra Protofolio\\\\src\\\\assets\\\\styles\\\\styles.sass:1:7)\\n    at E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\webpack\\\\lib\\\\javascript\\\\JavascriptModulesPlugin.js:548:10\\n    at Hook.eval [as call] (eval at create (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\tapable\\\\lib\\\\HookCodeFactory.js:19:10), <anonymous>:7:1)\\n    at Hook.CALL_DELEGATE [as _call] (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\tapable\\\\lib\\\\Hook.js:16:14)\\n    at E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5566:39\\n    at tryRunOrWebpackError (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\webpack\\\\lib\\\\HookWebpackError.js:80:7)\\n    at __webpack_require_module__ (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5564:12)\\n    at __webpack_require__ (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5511:18)\\n    at E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5599:20\\n    at symbolIterator (E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\neo-async\\\\async.js:3485:9)\\n\\nGenerated code for E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\css-loader\\\\dist\\\\cjs.js!E:\\\\VSC\\\\Gayathra Protofolio\\\\node_modules\\\\sass-loader\\\\dist\\\\cjs.js!E:\\\\VSC\\\\Gayathra Protofolio\\\\src\\\\assets\\\\styles\\\\styles.sass\\n1 | throw new Error(\\\"Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\\\\nexpected \\\\\\\")\\\\\\\".\\\\n  ╷\\\\n3 │     primary-op: hsl(179 100% 50% / 0.1),\\\\r\\\\n  │               ^\\\\n  ╵\\\\n  src\\\\\\\\assets\\\\\\\\styles\\\\\\\\default\\\\\\\\variables.scss 3:15  @import\\\\n  src\\\\\\\\assets\\\\\\\\styles\\\\\\\\styles.sass 2:9              root stylesheet\\\");\");\n\n//# sourceURL=webpack://portfolio/./src/assets/styles/styles.sass?\n}");
+"use strict";
+eval("{__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://portfolio/./src/assets/styles/styles.sass?\n}");
 
 /***/ })
 
@@ -202,18 +203,6 @@ eval("{throw new Error(\"Module build failed (from ./node_modules/mini-css-extra
 /******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -244,7 +233,7 @@ eval("{throw new Error(\"Module build failed (from ./node_modules/mini-css-extra
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + {"src_app_views_About_js":"cddaafff3438f087617d","src_app_views_Contacts_js":"560ef71063b129da344c","src_app_views_Home_js":"2968baeb733b8d174715","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"54f8e1bb7d7c500b0170"}[chunkId] + ".js";
+/******/ 			return "js/" + {"src_app_views_About_js":"033adf9ce5081fd22af6","src_app_views_Contacts_js":"560ef71063b129da344c","src_app_views_Home_js":"2202502479ff6a21844d","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"b95b369643785573edba"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -252,6 +241,10 @@ eval("{throw new Error(\"Module build failed (from ./node_modules/mini-css-extra
 /******/ 	(() => {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
+/******/ 			// return url for filenames not based on template
+/******/ 			if (chunkId === "src_app_views_About_js") return "css/about.css";
+/******/ 			if (chunkId === "src_app_views_Home_js") return "css/home.css";
+/******/ 			if (chunkId === "src_app_views_Projects_js") return "css/projects.css";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
@@ -351,6 +344,92 @@ eval("{throw new Error(\"Module build failed (from ./node_modules/mini-css-extra
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/^blob:/, "").replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
 /******/ 		__webpack_require__.p = scriptUrl + "../";
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/css loading */
+/******/ 	(() => {
+/******/ 		if (typeof document === "undefined") return;
+/******/ 		var createStylesheet = (chunkId, fullhref, oldTag, resolve, reject) => {
+/******/ 			var linkTag = document.createElement("link");
+/******/ 		
+/******/ 			linkTag.rel = "stylesheet";
+/******/ 			linkTag.type = "text/css";
+/******/ 			if (__webpack_require__.nc) {
+/******/ 				linkTag.nonce = __webpack_require__.nc;
+/******/ 			}
+/******/ 			var onLinkComplete = (event) => {
+/******/ 				// avoid mem leaks.
+/******/ 				linkTag.onerror = linkTag.onload = null;
+/******/ 				if (event.type === 'load') {
+/******/ 					resolve();
+/******/ 				} else {
+/******/ 					var errorType = event && event.type;
+/******/ 					var realHref = event && event.target && event.target.href || fullhref;
+/******/ 					var err = new Error("Loading CSS chunk " + chunkId + " failed.\n(" + errorType + ": " + realHref + ")");
+/******/ 					err.name = "ChunkLoadError";
+/******/ 					err.code = "CSS_CHUNK_LOAD_FAILED";
+/******/ 					err.type = errorType;
+/******/ 					err.request = realHref;
+/******/ 					if (linkTag.parentNode) linkTag.parentNode.removeChild(linkTag)
+/******/ 					reject(err);
+/******/ 				}
+/******/ 			}
+/******/ 			linkTag.onerror = linkTag.onload = onLinkComplete;
+/******/ 			linkTag.href = fullhref;
+/******/ 		
+/******/ 		
+/******/ 			if (oldTag) {
+/******/ 				oldTag.parentNode.insertBefore(linkTag, oldTag.nextSibling);
+/******/ 			} else {
+/******/ 				document.head.appendChild(linkTag);
+/******/ 			}
+/******/ 			return linkTag;
+/******/ 		};
+/******/ 		var findStylesheet = (href, fullhref) => {
+/******/ 			var existingLinkTags = document.getElementsByTagName("link");
+/******/ 			for(var i = 0; i < existingLinkTags.length; i++) {
+/******/ 				var tag = existingLinkTags[i];
+/******/ 				var dataHref = tag.getAttribute("data-href") || tag.getAttribute("href");
+/******/ 				if(tag.rel === "stylesheet" && (dataHref === href || dataHref === fullhref)) return tag;
+/******/ 			}
+/******/ 			var existingStyleTags = document.getElementsByTagName("style");
+/******/ 			for(var i = 0; i < existingStyleTags.length; i++) {
+/******/ 				var tag = existingStyleTags[i];
+/******/ 				var dataHref = tag.getAttribute("data-href");
+/******/ 				if(dataHref === href || dataHref === fullhref) return tag;
+/******/ 			}
+/******/ 		};
+/******/ 		var loadStylesheet = (chunkId) => {
+/******/ 			return new Promise((resolve, reject) => {
+/******/ 				var href = __webpack_require__.miniCssF(chunkId);
+/******/ 				var fullhref = __webpack_require__.p + href;
+/******/ 				if(findStylesheet(href, fullhref)) return resolve();
+/******/ 				createStylesheet(chunkId, fullhref, null, resolve, reject);
+/******/ 			});
+/******/ 		}
+/******/ 		// object to store loaded CSS chunks
+/******/ 		var installedCssChunks = {
+/******/ 			"index": 0
+/******/ 		};
+/******/ 		
+/******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
+/******/ 			var cssChunks = {"src_app_views_About_js":1,"src_app_views_Home_js":1,"src_app_views_Projects_js":1};
+/******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
+/******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
+/******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {
+/******/ 					installedCssChunks[chunkId] = 0;
+/******/ 				}, (e) => {
+/******/ 					delete installedCssChunks[chunkId];
+/******/ 					throw e;
+/******/ 				}));
+/******/ 			}
+/******/ 		};
+/******/ 		
+/******/ 		// no hmr
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
