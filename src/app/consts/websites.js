@@ -8,5 +8,5 @@ export default {
     telegram: "t.me/",  
     instagram: "instagram.com/",  
     twitter: "twitter.com/",
-    youtube: "youtube.com/@"  
+    youtube: "youtube.com/watch?v="  
 }
