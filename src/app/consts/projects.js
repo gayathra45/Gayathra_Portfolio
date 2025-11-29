@@ -4,7 +4,7 @@
 const projects = [
     {
         id: "travel-web",
-        name: "Phantom Global Travel Website",
+        name: "Travel Web",
         links: {
             figma: "zmRIYf4ExkoYiN5Z6U6jrG/WT-Project-UI?node-id=1-66&t=5q999sxqBYP8enp7-1",
             live: "gayathra45.github.io/Phanthom-Global-Travel-Website/",
