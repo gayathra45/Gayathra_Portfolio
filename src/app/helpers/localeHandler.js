@@ -21,6 +21,7 @@ async function getLocale() {
     const locale = localStorage.locale ?? defaultLocale
 
     return fetch(`locales/${locale}.json`).then(res => res.json())
+
 }
 
 export default setLocaleHander;
