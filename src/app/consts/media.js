@@ -12,6 +12,7 @@ const media = {
     facebook: "Gayathra Samuditha",  
     instagram: "gayathra_s", 
     telegram: "@gayathra_samuditha",
+    youtube: "Code Mapper",
     twitter: "Gayathra45" 
 
 }

@@ -23,10 +23,10 @@ export default (t) => {
                             ${[
                               "linkedin",
                               "github",
-                              "twitter",
                               "facebook",
                               "instagram",
                               "email",
+                              "youtube"
                             ]
 
                               .map((name) => MediaIcon({ name }))

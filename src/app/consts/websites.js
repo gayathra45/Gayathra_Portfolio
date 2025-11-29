@@ -7,5 +7,6 @@ export default {
     facebook: "facebook.com/",
     telegram: "t.me/",  
     instagram: "instagram.com/",  
-    twitter: "twitter.com/"  
+    twitter: "twitter.com/",
+    youtube: "youtube.com/@"  
 }
