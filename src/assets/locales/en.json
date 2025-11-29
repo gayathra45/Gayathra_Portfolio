@@ -18,7 +18,7 @@
     },
     
     "projects": {
-        "Travel-Web": {
+        "travel-web": {
             "name": "Travel Web",
             "description": "Phanthom Global Travel Website"
         }
