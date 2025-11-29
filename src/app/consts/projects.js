@@ -8,7 +8,7 @@ const projects = [
         links: {
             figma: "zmRIYf4ExkoYiN5Z6U6jrG/WT-Project-UI?node-id=1-66&t=5q999sxqBYP8enp7-1",
             live: "gayathra45.github.io/Phanthom-Global-Travel-Website/",
-            github: "/gayathra45/Phanthom-Global-Travel-Website.git",
+            github: "/gayathra45/Phanthom-Global-Travel-Website",
             youtube: "--------"  
         },
         techs: ["js", "html", "css"],
