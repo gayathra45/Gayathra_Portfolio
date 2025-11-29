@@ -9,7 +9,7 @@ const projects = [
             live: "phantomglobaltravelwebsite.com",
             github: "git@github.com:gayathra45/Phanthom-Global-Travel-Website.git"
         },
-        techs: ["JavaScript", "HTML", "CSS"],
+        techs: ["js", "html", "css"],
         hasImage: true,
     }
 ];
