@@ -10,10 +10,10 @@ const projects = [
             live: "gayathra45.github.io/Phanthom-Global-Travel-Website/",
             github: "/gayathra45/Phanthom-Global-Travel-Website",
             youtube: "--------"  
-        },
-        techs: ["js", "html", "css"],
-        hasImage: true,
+        }
 
+    },
+    {
         id: "Java OOP Project",
         name: "Java OOP Project",
         links: {
@@ -22,7 +22,6 @@ const projects = [
         },
         techs: ["java"],
         hasImage: true,
-
     }
 ];
 
