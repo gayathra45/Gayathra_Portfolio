@@ -20,6 +20,10 @@
         "travel-web": {
             "name": "Туристичний сайт",
             "description": "Глобальний туристичний сайт Phanthom"
+        },
+        "java-oop-project": {
+             "name": "Java OOP проєкт",
+              "description": "Консольний застосунок кошика покупок на Java з ООП"
         }
     },
     "pages": {

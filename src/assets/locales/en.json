@@ -21,11 +21,10 @@
         "travel-web": {
             "name": "Travel Web",
             "description": "Phanthom Global Travel Website"
-        }
-        ,
+        },
         "Java OOP Project": {
             "name": "Java OOP Project",
-            "description": "Java Project using Netbeans"
+            "description": "Online Shopping Cart project (Netbeans)"
         }
     },
    

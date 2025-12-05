@@ -15,7 +15,7 @@ const projects = [
         hasImage: true,
     },
     {
-        id: "Java-OOP-Project",
+        id: "java-oop-project",
         name: "Java OOP Project",
         links: {
             github: "/gayathra45/Shopping-Cart-OOP-Java-Project",
