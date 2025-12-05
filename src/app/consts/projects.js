@@ -18,7 +18,7 @@ const projects = [
         id: "java-oop-project",
         name: "Java OOP Project",
         links: {
-            github: "/gayathra45/Shopping-Cart-OOP-Java-Project",
+            github: "/gayathra45/Shopping-Cart-OOP-Java-Project/",
             youtube: "--------"  
         },
         techs: ["java"],
