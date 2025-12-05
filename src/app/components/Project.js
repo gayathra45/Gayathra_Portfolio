@@ -27,10 +27,10 @@ export default ({ id }, t) => {
     );
 
     return /*html*/ `
-        <div class="project">
+          <div class="project">
             ${
                 hasImage
-                    ? `<img src="images/projects/${id}.webp" alt="${t[id]?.name || id}" class="project__image">`
+                    ? `<img src="/Gayathra_Portfolio/images/projects/${id}.webp" alt="${t[id]?.name || id}" class="project__image">`
                     : ""
             }
             
