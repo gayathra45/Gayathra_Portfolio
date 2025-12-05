@@ -22,7 +22,7 @@ const projects = [
             youtube: "--------"  
         },
         techs: ["java"],
-        hasImage: false
+        hasImage: true
     }
     
     
